@@ -1,17 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!doctype html>
+<html lang='pt-BR'>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
-</head>
-<body>
-    <h1> Exemplos de links</h1>
-    <h2>Referência para uma imagem (link relativo) </h2>
-    <p>Este parágrafo tem um link para a <a href="file:///C:/Users/isabe/AppData/Local/Temp/Temp1_exercicios-2022-06-01%20(1).zip/Exercicios/imgs/tigre.jpg"> figura do tigre.</a>
-    <h2> Referência para uma página Web (link absoluto)</h2>
-    <p>Este parágrafo contém um link para o site do professor: <a href="http://www.jeiks.net/fundpweb/about/"> Jacson.</a>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="normalize-8.0.1.css">
+    <link rel='stylesheet' href='estilo_01.css'>
+    <script src="prefixfree-1.0.7.js"></script>
+    <!--
+        <script src="jquery-3.6.0.min.js"></script>
+        <script>
+        $(function() {
+            $('body').append( $('<p>').text('jQuery funcionando OK!')  );
+        });
+        </script>
+    -->
+    <title>Título Geral</title>
+  </head>
+  
+  <body class='container'>
+    <h1>Título Geral</h1>
+    
+    <div class='todosLugares'>
+        <article class='lugar'>
+            <h2>Local 1</h2>
+            <img src="parque-estadual-da-cachoeira.jpg" alt="">
+            <p>
+            Texto do Parágrafo 1. Texto do Parágrafo 1. Texto do Parágrafo 1. Texto do Parágrafo 1.
+            </p>
+            <p>
+            Texto do Parágrafo 2.Texto do Parágrafo 2.
+            </p>
+            <div class="clear"></div>
+          </article>
+       
+        
+        
+        <article class="lugar">
+            <h2>Local 2</h2>
+            <img src="parque-estadual-da-cachoeira.jpg" alt="">
+            <p>
+            Texto do Parágrafo 1. Texto do Parágrafo 1. Texto do Parágrafo 1. Texto do Parágrafo 1.
+            </p>
+            <p>
+            Texto do Parágrafo 2.Texto do Parágrafo 2.
+            </p>
+          <div class="clear"></div>
+        
+      </article>
+      
+    </div>
 
-</body>
+     
+    <aside class="notas">
+      <h3>outros lugares legais</h3>
+      <ol>
+        <li>Bacana</li>
+        <li>Divertido</li>
+        <li>Muito Legal</li>
+        <li>Interresante</li>
+      </ol>
+    
+</aside>
+    <footer class="clear"> &lt;desenvolvido por mim&gt;</footer>
+  </body>
 </html>
