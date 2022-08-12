@@ -1,0 +1,118 @@
+                                                                                                                                                                                                                                                                                                                                                        .container {
+    margin :  0 auto;
+     width:  960px; 
+}
+
+body {
+    font-family : "Lucida Sans Unicode" , Verdana , sans-serif;
+    line-height :1,6;
+    background :#CC7766  url('noise.png' );
+    background-color :  rgba(210,210,210,0.3);
+}
+
+.lugar{
+    border-color: #CCC  #999  #999  #CCC ;
+    border-style: solid;
+    border-width : 1px ;
+    margin-bottom: 20 px ;
+    padding: 10px; _
+    /*estouro: auto;*/
+ }
+
+.lugar h2 {
+    border-bottom: 1px dashed #5C6818 ;
+    margin: 0 ;
+}
+
+.lugar a {
+    color:  #2C11AF ;
+    font-weight : bold;
+}
+
+a {
+    color:  #2C88A7 ;
+    text-decoration: none;
+}
+
+  a:hover {
+    /* :foco, :visitado, :ativo */
+    color : white;
+    background-color : black;
+}
+
+.lugar  img {
+    height: 200px ;  /* e largura?? */
+    border: 1px black solid;
+    float: left;
+    margin: 10px  10px 0 0 ;
+    padding:  2px ; 
+}
+
+.clear {
+    clear : both;
+}
+
+footer{  
+    text-align : center;
+    font-size:  12px ;
+}
+
+.notas {
+     background-color: rgba(210,210,210,0.3);
+     padding: 10px ; 
+}
+
+.notas h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.notas ol {
+    font-size : 12 px ;
+}
+
+.todosLugares {
+    float : left;
+    width :  660px ; 
+}
+
+.notas {
+   float: right;
+   width: 260px ; 
+}
+ .maps {
+display: block;
+border-style: none;
+margin: 0;
+float: right;
+width: 260px;
+
+ }
+	table, tr, td, th {
+		border:#000 solid 1px;
+		width:450px;
+		padding:0px;
+		font-size:20px;
+		border-collapse:collapse;
+	}
+	td{
+		width:150px;
+		height:30px;
+	}
+	th{
+		background-color:#060;
+		color:#FFF;
+	}
+
+    form h3 {
+        border-bottom: 1px dashed #5C6818;
+        margin: 0;
+    }
+    
+    .footer{
+        tetx-align:center;
+        font-size: 12px;
+    }
+    
+    
+    
